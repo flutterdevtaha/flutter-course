@@ -30,12 +30,12 @@ Widget buildContactItem(Contact _contact) {
             child: Container(),
           ),
           if (_contact.isIncoming)
-            Icon(
+            const Icon(
               Icons.arrow_downward,
               color: Colors.red,
             )
           else
-            Icon(
+            const Icon(
               Icons.arrow_upward,
               color: Colors.green,
             )

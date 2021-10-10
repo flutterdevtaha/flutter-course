@@ -2,7 +2,7 @@ import 'package:contacts_01/models/note.dart';
 import 'package:flutter/material.dart';
 
 class NewNotePage extends StatefulWidget {
-  NewNotePage(this.noteModel);
+  const NewNotePage(this.noteModel, {Key? key}) : super(key: key);
 
   final NoteModel noteModel;
 
@@ -11,7 +11,7 @@ class NewNotePage extends StatefulWidget {
 }
 
 class _NewNotePageState extends State<NewNotePage> {
-  var _controller = TextEditingController();
+  final _controller = TextEditingController();
 
   @override
   void initState() {
