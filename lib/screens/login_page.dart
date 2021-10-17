@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
 class LoginPage extends StatefulWidget {
+  const LoginPage({Key? key}) : super(key: key);
+
   @override
   State<LoginPage> createState() => _LoginPageState();
 }
@@ -37,7 +39,7 @@ class _LoginPageState extends State<LoginPage> {
               child: TextField(
                 textAlign: TextAlign.center,
                 controller: emailTextController,
-                decoration: InputDecoration(
+                decoration: const InputDecoration(
                   hintText: 'Email'
                 ),
               ),
@@ -54,7 +56,7 @@ class _LoginPageState extends State<LoginPage> {
               child: TextField(
                 textAlign: TextAlign.center,
                 controller: passwordTextController,
-                decoration: InputDecoration(
+                decoration: const InputDecoration(
                     hintText: 'Password'
                 ),
               ),
@@ -69,7 +71,7 @@ class _LoginPageState extends State<LoginPage> {
             }
             debugPrint('emailTextController.text: ${emailTextController.text}');
             debugPrint('passwordTextController.text: ${passwordTextController.text}');
-          }, child: Text('Login')),
+          }, child: const Text('Login')),
         )
       ],
     );

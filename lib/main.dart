@@ -131,10 +131,6 @@
 //   }
 // }
 
-
-
-
-
 import 'package:flutter/material.dart';
 
 import 'car_renting_ui/screens/home.dart';

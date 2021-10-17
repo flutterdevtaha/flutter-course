@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 
-import '../data.dart';
+import '../data/data.dart';
 import 'contact_item_view.dart';
 
 Widget buildContactsList() {

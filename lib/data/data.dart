@@ -1,5 +1,5 @@
 
-import 'models/contact.dart';
+import '../models/contact.dart';
 
 var contacts = [
   Contact(

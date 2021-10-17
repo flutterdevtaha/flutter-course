@@ -1,13 +1,13 @@
 
 import 'package:flutter/material.dart';
 import 'dart:math' as math;
-import '../data.dart';
+import '../data/data.dart';
 
 Widget buildFavoritesGridView() {
   return Column(
     children: [
-      Text('Favorites'),
-      Divider(
+      const Text('Favorites'),
+      const Divider(
         thickness: 4,
       ),
       Expanded(
@@ -21,7 +21,7 @@ Widget buildFavoritesGridView() {
                 height: 120,
                 child: Text(
                   contacts[index].name[0],
-                  style: TextStyle(fontSize: 40),
+                  style: const TextStyle(fontSize: 40),
                 ),
                 alignment: Alignment.center,
                 decoration: BoxDecoration(shape: BoxShape.circle, color: personColor),
