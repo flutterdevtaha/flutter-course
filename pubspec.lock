@@ -76,6 +76,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_boxicons:
+    dependency: "direct main"
+    description:
+      name: flutter_boxicons
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "3.0.0"
   flutter_lints:
     dependency: "direct dev"
     description:
@@ -114,6 +121,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "4.0.0"
+  icofont_flutter:
+    dependency: "direct main"
+    description:
+      name: icofont_flutter
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.4.0"
   js:
     dependency: transitive
     description:
@@ -135,6 +149,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.12.10"
+  material_design_icons_flutter:
+    dependency: "direct main"
+    description:
+      name: material_design_icons_flutter
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "5.0.6295"
   meta:
     dependency: transitive
     description:
@@ -149,6 +170,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.0"
+  outline_material_icons:
+    dependency: "direct main"
+    description:
+      name: outline_material_icons
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.1.1"
   path:
     dependency: transitive
     description:
