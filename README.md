@@ -1,4 +1,6 @@
-# Flutter Course Code
+# weather_task_app
+
+A new Flutter project.
 
 ## Getting Started
 
